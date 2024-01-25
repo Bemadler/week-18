@@ -1,0 +1,36 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TO DO List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/style/index.css">
+        <link rel="stylesheet" href="/assets/style/normalize.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo-box">
+                <img class="logo" src="./assets/img/-02_small.png"/>
+            </div>
+            <div class="todo-app">
+                <h2 class="headline">Добавить задачу  <img src="/assets/img/checklinst.svg" alt="checklist icon"/></h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Добавьте задачу">
+                    <button onclick="addTask()">Добавить</button>
+                </div>
+                <h2>Список задач <img src="/assets/img/checklinst.svg" alt="checklist icon"/></h2>
+                <ul id="list-container">
+                    <!-- <li class="checked">Задание 1</li>
+                    <li>Задание 2</li>
+                    <li>Задание 3</li> -->
+                </ul>
+                <div class="row2">
+                    <button class="clearButtton" onclick="deleteTasks()">Очистить</button>
+                </div>
+            </div>  
+        </div>
+        <script src="/assets/style/script.js" async defer></script>
+    </body>
+</html>
